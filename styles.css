@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-image {
+    flex: 1;
+    background-color: green;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.form-section {
+    flex: 2;
+}
