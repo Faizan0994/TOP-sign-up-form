@@ -4,18 +4,48 @@ body {
     height: 100vh;
     margin: 0;
 }
-img {
+.bg-image img {
     height: 100%;
     width: 100%;
 }
 
 .bg-image {
+    position: relative;
     flex: 1;
-    background-color: green;
     max-height: 100vh;
     overflow: hidden;
 }
 
 .form-section {
     flex: 2;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./Norse-Bold.otf);
+}
+
+.odin-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    min-height: 12%;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-size: 5em;
+}
+
+.odin-logo p {
+    font-family: Norse-Bold, Impact, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.odin-logo img {
+    width: 17%;
+    height: 17%;
+    opacity: 1;
 }
