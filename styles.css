@@ -49,3 +49,18 @@ body {
     height: 17%;
     opacity: 1;
 }
+
+.credits {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 1%;
+    width: 100%;
+    color: white;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.credits a {
+    color: inherit;
+}
