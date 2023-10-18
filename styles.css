@@ -3,6 +3,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+    font-family: sans-serif, Arial;
 }
 .bg-image img {
     height: 100%;
@@ -63,4 +64,29 @@ body {
 
 .credits a {
     color: inherit;
+}
+
+.form-section {
+    background-color: rgb(249, 250, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.intro {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.info-section {
+    flex: 1;
+}
+
+.sign-up-section {
+    flex: 1;
 }
