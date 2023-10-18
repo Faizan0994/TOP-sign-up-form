@@ -5,6 +5,11 @@ body {
     margin: 0;
     font-family: sans-serif, Arial;
 }
+
+p {
+    margin: 0;
+}
+
 .bg-image img {
     height: 100%;
     width: 100%;
@@ -74,7 +79,16 @@ body {
 }
 
 .intro {
+    display: flex;
     flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.intro p:last-child {
+    position: relative;
+    top: 10%;
 }
 
 form {
