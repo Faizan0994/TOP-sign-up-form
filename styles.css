@@ -136,3 +136,8 @@ label {
     font-weight: 700;
     color: rgb(66, 66, 66);
 }
+
+input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+}
