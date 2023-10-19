@@ -145,6 +145,8 @@ label {
 input {
     border: 2px solid #E5E7EB;
     border-radius: 4px;
+    width: 216px;
+    height: 24px;
 }
 
 input:focus {
