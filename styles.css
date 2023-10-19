@@ -121,4 +121,18 @@ form {
 
 .form-row {
     display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+label {
+    font-size: 0.7em;
+    font-weight: 700;
+    color: rgb(66, 66, 66);
 }
