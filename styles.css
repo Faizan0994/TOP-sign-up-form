@@ -127,7 +127,7 @@ form {
 .form-row {
     display: flex;
     justify-content: space-between;
-    padding-right: 20%;
+    padding-right: 15%;
 }
 
 .form-item {
