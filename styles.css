@@ -99,13 +99,26 @@ form {
 }
 
 .info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: white;
     box-shadow: 0px 8px 8px 1px #e2e2e2;
     flex: 1;
     padding: 0 20% 0 5%;
+    color: rgb(59, 59, 59);
+}
+
+.info-section legend {
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .sign-up-section {
     flex: 1;
     padding: 0 20% 0 5%;
+}
+
+.form-row {
+    display: flex;
 }
