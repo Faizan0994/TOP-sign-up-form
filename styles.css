@@ -147,3 +147,8 @@ input:focus {
     outline: none;
     box-shadow: 0px 0px 8px 1px #c4c3c3;
 }
+
+input:invalid {
+    border: 1px solid red;
+    outline: none;
+}
